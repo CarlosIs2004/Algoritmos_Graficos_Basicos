@@ -62,14 +62,14 @@
             // dDAToolStripMenuItem
             // 
             this.dDAToolStripMenuItem.Name = "dDAToolStripMenuItem";
-            this.dDAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dDAToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.dDAToolStripMenuItem.Text = "DDA";
             this.dDAToolStripMenuItem.Click += new System.EventHandler(this.dDAToolStripMenuItem_Click);
             // 
             // bresenhamToolStripMenuItem
             // 
             this.bresenhamToolStripMenuItem.Name = "bresenhamToolStripMenuItem";
-            this.bresenhamToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bresenhamToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.bresenhamToolStripMenuItem.Text = "Bresenham ";
             this.bresenhamToolStripMenuItem.Click += new System.EventHandler(this.bresenhamToolStripMenuItem_Click);
             // 
@@ -85,6 +85,7 @@
             this.rellenoToolStripMenuItem.Name = "rellenoToolStripMenuItem";
             this.rellenoToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.rellenoToolStripMenuItem.Text = "Relleno";
+            this.rellenoToolStripMenuItem.Click += new System.EventHandler(this.rellenoToolStripMenuItem_Click);
             // 
             // panel1
             // 

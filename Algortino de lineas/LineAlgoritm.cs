@@ -119,6 +119,5 @@ namespace Algortino_de_lineas
             currentStep++;
         }
 
-
     }
 }

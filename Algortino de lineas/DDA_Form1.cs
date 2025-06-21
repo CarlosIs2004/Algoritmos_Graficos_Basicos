@@ -72,21 +72,7 @@ namespace Algortino_de_lineas
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Relleno line;
-            PointF startPoint = new PointF();
-            
-            startPoint.X = 0;
-            startPoint.Y = 0;
-
-            line = new Relleno(pictureBox1, startPoint);
-            line.paintPoligon(4);
-
-            pictureBox1.Image = line.bufferBitmap;
-
-
-        }
+    
 
 
      

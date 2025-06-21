@@ -58,6 +58,12 @@
     <Compile Include="Discretizacion_Forms.Designer.cs">
       <DependentUpon>Discretizacion_Forms.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Relleno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Relleno.Designer.cs">
+      <DependentUpon>Form_Relleno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Discretizacion_Forms.resx">
       <DependentUpon>Discretizacion_Forms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Relleno.resx">
+      <DependentUpon>Form_Relleno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Form.resx">
       <DependentUpon>Menu_Form.cs</DependentUpon>

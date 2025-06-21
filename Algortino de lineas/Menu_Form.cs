@@ -55,9 +55,11 @@ namespace Algortino_de_lineas
             openChildForm(new Discretizacion_Forms());
         }
 
-        private void lineToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+       
 
+        private void rellenoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Form_Relleno());
         }
     }
 }
